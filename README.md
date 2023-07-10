@@ -1,6 +1,6 @@
 # Belarcs.py
 
-### Problem Statement
+### Problem Statement:
 
 The code provided is a Python script that allows users to search for specific information within HTML files and generate an Excel output file containing the extracted data. The script utilizes the Tkinter library to create a simple graphical user interface (GUI) for the application.
 
@@ -12,7 +12,7 @@ The main functionality of the script includes:
 
 The script uses the BeautifulSoup library to parse the HTML content of the selected files and extract relevant information. The extracted data is then written to an Excel file using the openpyxl library. Make sure the required Python libraries (`tkinter`, `openpyxl`, `bs4`) are installed before running the script.
 
-### Process
+### Process:
 
 1. Launch the application by running the script.
 2. The GUI window titled "Search Files and Generate Output" will appear.
