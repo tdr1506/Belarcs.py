@@ -10,7 +10,7 @@ The main functionality of the script includes:
 - Choosing an output folder where the generated Excel file will be saved.
 - Running the search and file generation process.
 
-The script uses the BeautifulSoup library to parse the HTML content of the selected files and extract relevant information. The extracted data is then written to an Excel file using the openpyxl library.
+The script uses the BeautifulSoup library to parse the HTML content of the selected files and extract relevant information. The extracted data is then written to an Excel file using the openpyxl library. Make sure the required Python libraries (`tkinter`, `openpyxl`, `bs4`) are installed before running the script.
 
 ### Process
 
@@ -26,5 +26,3 @@ The script uses the BeautifulSoup library to parse the HTML content of the selec
 10. If one or more of the selected files are invalid (not existing or inaccessible), an error message will be displayed.
 11. Once the search and file generation process is completed, a success message will be displayed.
 12. The generated Excel file will be saved in the chosen output folder with the name "output.xlsx".
-
-Note: Make sure the required Python libraries (`tkinter`, `openpyxl`, `bs4`) are installed before running the script.
